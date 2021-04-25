@@ -1,0 +1,16 @@
+package intro;
+
+
+// Ercan Kaymaz
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		String internetSubeButonu="Ýnternet Þubesi";
+		int dolar=(int) 8.15;
+		System.err.println(internetSubeButonu);
+
+	}
+
+}

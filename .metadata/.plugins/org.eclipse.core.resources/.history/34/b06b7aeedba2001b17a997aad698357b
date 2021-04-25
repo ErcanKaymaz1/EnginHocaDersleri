@@ -1,0 +1,29 @@
+package intro;
+
+
+// Ercan Kaymaz
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		String internetSubeButonu="Ýnternet Þubesi";
+		double dolarDun=8.15;
+		double dolarBugun=8.18;
+		int vade=36;
+		boolean dustuMu=false;
+		
+		if (dolarBugun>dolarDun) {
+			dustuMu=false;
+			System.err.println(dustuMu);
+		}else if (dolarBugun==dolarDun) {
+			System.err.println("Eþit durumlar...");
+		} else {
+			dustuMu=true;
+			System.err.println(dustuMu);
+		}
+			
+
+	}
+
+}
